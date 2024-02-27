@@ -1,0 +1,87 @@
+/* reset defalt styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+/* styles for heading */
+h1{
+    padding: 10px;
+    margin-left: 34%;
+    color: #d31919;
+}
+
+/* styling container */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    gap: 0px;
+    justify-content: left;
+    max-width: 1080px;
+    width: 100%;
+}
+
+/* styles for the game board */
+#story-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    padding: 10px;
+}
+
+#story-display {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+/* style images 
+.imageCard {
+    height: 20%;
+    width: auto;
+}*/
+
+
+/* Styles for the replay button */
+#replayButton {
+    position: fixed;
+    bottom: 20px; 
+    left: 60%; 
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #af784c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the replay button on hover */
+#replayButton:hover {
+    background-color: #45a049;
+}
+
+/* style for the instruction button */
+#showInstructionsButton {
+    position: fixed;
+    bottom: 20px; 
+    left: 48%; 
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #af784c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the show instructions button on hover */
+#showInstructionsButton:hover {
+    background-color: #45a049;
+}
