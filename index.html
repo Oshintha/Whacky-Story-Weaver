@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wacky Tales Weaver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Well Come To Wacky Tales Weaver</h1>
+    <div class="instructions">
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Start the game by clicking on the images below.</li>
+            <li>Each click reveals a snippet of the story.</li>
+            <li>Discover the whimsical tale of Pancake, the clumsy panda.</li>
+            <li>Enjoy the adventure in a world where broccoli rules and socks possess magical powers!</li>
+        </ol>
+    </div>   
+    <div class="container">
+        <div id="story-images">
+            <button onclick="addToStory('image1')"> <!-- Addingimage file name -->
+                <img class="imageCard" src="images/image1.jpg" alt="">
+            </button>
+            <button onclick="addToStory('image2')">
+                <img class="imageCard" src="images/image2.jpg" alt="">
+            </button>
+            <button onclick="addToStory('image3')">
+                <img class="imageCard" src="images/image3.jpg" alt="">
+            </button>
+            <button onclick="addToStory('image4')">
+                <img class="imageCard" src="images/image4.jpg" alt="">
+            </button>
+            <button onclick="addToStory('image5')">
+                <img class="imageCard" src="images/image5.jpg" alt="">
+            </button>
+            <button onclick="addToStory('image6')">
+                <img class="imageCard" src="images/image6.jpg" alt="">
+            </button>
+            <button onclick="addToStory('image7')">
+                <img class="imageCard" src="images/image7.jpg" alt="">
+            </button>
+            <button onclick="addToStory('image8')">
+                <img class="imageCard" src="images/image8.jpg" alt="">
+            </button>
+        </div>
+        <div id="story-display"></div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+  
